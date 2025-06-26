@@ -107,6 +107,3 @@ hotel_bookings.csv: Dataset original con 119,390 registros y 32 columnas
 🟢 Estado del Proyecto
 ✔️ Completado: el dataset está limpio, analizado y visualizado. Preparado para ser usado en modelos predictivos o dashboards.
 
-
-💬 Reflexión Final
-Este análisis no solo muestra dominio técnico, Pastor, sino también una visión crítica sobre la calidad de los datos y su aplicación en contextos reales, como gestión hotelera, marketing o pricing dinámico.
