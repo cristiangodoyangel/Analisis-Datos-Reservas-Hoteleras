@@ -4,88 +4,109 @@
 🧾 Descripción General
 Este proyecto aborda un proceso completo de análisis exploratorio de datos (EDA) sobre un dataset de más de 119 mil reservas hoteleras. El trabajo cubre:
 
-Limpieza profunda de datos
 
-Conversión y corrección de tipos de datos
+- Limpieza profunda de datos
 
-Normalización de valores categóricos
+- Conversión y corrección de tipos de datos
 
-Análisis univariado y multivariado
+- Normalización de valores categóricos
 
-Visualizaciones comparativas y explicativas
+- Análisis univariado y multivariado
 
-Estadísticas descriptivas
+- Visualizaciones comparativas y explicativas
 
-Detección de tendencias clave
+- Estadísticas descriptivas
+
+- Detección de tendencias clave
 
 Todo esto realizado con Python en Google Colab, empleando pandas, matplotlib y seaborn.
 
+
 🔍 Objetivos
-Depurar y preparar el dataset para análisis.
 
-Entender el comportamiento de las reservas según tipo de hotel, canal de distribución y segmento de cliente.
+- Depurar y preparar el dataset para análisis.
 
-Visualizar relaciones entre variables categóricas y numéricas.
+- Entender el comportamiento de las reservas según tipo de hotel, canal de distribución y segmento de cliente.
 
-Detectar patrones o tendencias que puedan aportar valor en la toma de decisiones.
+- Visualizar relaciones entre variables categóricas y numéricas.
+
+- Detectar patrones o tendencias que puedan aportar valor en la toma de decisiones.
+
 
 📂 Contenido del Análisis
+
 ✅ Limpieza y Preparación
-Eliminación de duplicados (más de 30k)
 
-Imputación de valores faltantes (ej. países desconocidos → "unknown")
+- Eliminación de duplicados (más de 30k)
 
-Conversión a tipos de datos adecuados (datetime, category, int, etc.)
+- Imputación de valores faltantes (ej. países desconocidos → "unknown")
 
-Revisión de outliers y valores extremos
+- Conversión a tipos de datos adecuados (datetime, category, int, etc.)
+
+- Revisión de outliers y valores extremos
+
+
 
 📈 Visualizaciones Realizadas
-Histogramas de tiempos de espera (lead_time)
 
-Conteos por tipo de hotel
+- Histogramas de tiempos de espera (lead_time)
 
-Gráficos de barras comparando clientes según tipo
+- Conteos por tipo de hotel
 
-Boxplots del precio por noche (adr) según tipo de hotel y canal de distribución
+- Gráficos de barras comparando clientes según tipo
 
-Gráfico de violín para ver dispersiones de precios
+- Boxplots del precio por noche (adr) según tipo de hotel y canal de distribución
+
+- Gráfico de violín para ver dispersiones de precios
+
+
 
 📊 Estadística Descriptiva
+
 Se presenta un resumen con:
 
-Promedio (mean)
+- Promedio (mean)
 
-Mediana (50%)
+- Mediana (50%)
 
-Rango, desviación estándar, valores máximos y mínimos por variable numérica
+- Rango, desviación estándar, valores máximos y mínimos por variable numérica
+
+
 
 🔍 Detección de Tendencias
+
 Se identificaron patrones como:
 
-El hotel de ciudad tiene más reservas que el de resort
+- El hotel de ciudad tiene más reservas que el de resort
 
-Clientes "Transient" son los más frecuentes
+- Clientes "Transient" son los más frecuentes
 
-Algunos canales como Online TA dominan el mercado
+- Algunos canales como Online TA dominan el mercado
 
-Existen outliers en precios y duración de estadías, pero en contexto son razonables
+- Existen outliers en precios y duración de estadías, pero en contexto son razonables
+
+
 
 🧰 Tecnologías Utilizadas
-Python 3
+- Python 3
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Google Colab para entorno de ejecución
+- Google Colab para entorno de ejecución
+
+
 
 📁 Archivos Usados
 hotel_bookings.csv: Dataset original con 119,390 registros y 32 columnas
 
+
 🟢 Estado del Proyecto
 ✔️ Completado: el dataset está limpio, analizado y visualizado. Preparado para ser usado en modelos predictivos o dashboards.
+
 
 💬 Reflexión Final
 Este análisis no solo muestra dominio técnico, Pastor, sino también una visión crítica sobre la calidad de los datos y su aplicación en contextos reales, como gestión hotelera, marketing o pricing dinámico.
