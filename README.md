@@ -2,7 +2,7 @@
 
 
 
-🧾 Descripción General
+# 🧾 Descripción General
 Este proyecto aborda un proceso completo de análisis exploratorio de datos (EDA) sobre un dataset de más de 119 mil reservas hoteleras. El trabajo cubre:
 
 
@@ -23,7 +23,7 @@ Este proyecto aborda un proceso completo de análisis exploratorio de datos (EDA
 Todo esto realizado con Python en Google Colab, empleando pandas, matplotlib y seaborn.
 
 
-🔍 Objetivos
+# 🔍 Objetivos
 
 - Depurar y preparar el dataset para análisis.
 
@@ -34,8 +34,6 @@ Todo esto realizado con Python en Google Colab, empleando pandas, matplotlib y s
 - Detectar patrones o tendencias que puedan aportar valor en la toma de decisiones.
 
 
-
-# 📊 Análisis de Datos de Reservas Hoteleras
 
 Este proyecto aplica técnicas de **Data Cleaning**, **Exploración de Datos** y **Visualización** utilizando Python. El objetivo es entender el comportamiento de las reservas hoteleras y detectar patrones útiles para la toma de decisiones en el sector.
 
